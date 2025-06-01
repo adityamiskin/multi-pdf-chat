@@ -1,1 +1,17 @@
-.env
+# Python
+**/__pycache__/
+**/*.py[cod]
+# Persisted chat and index data
+backend/data/
+backend/data/chats/
+backend/data/vectorstore/
+# Node
+frontend/node_modules/
+frontend/dist/
+dist/
+# Logs and env files
+*.log
+*.env
+# IDEs
+.vscode/
+.idea/
